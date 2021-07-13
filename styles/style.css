@@ -142,6 +142,16 @@ font-size: 16px;
 }
 /* courses style */
 
+.courses{
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 24px;
+}
+
+
+
+
 
 .course .course-banner img{
 
@@ -150,6 +160,15 @@ font-size: 16px;
 
 
 }
+
+.course-info{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
 .fa-star.filled{
 color:
 #FFC014;
